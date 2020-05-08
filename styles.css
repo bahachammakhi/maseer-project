@@ -16,6 +16,14 @@ body {
   max-width: 100vw;
   overflow: hidden;
 }
+.section3 {
+  background-image: url("./background1.png");
+  max-height: 80vh;
+  display: flex;
+  padding-top: 10%;
+  max-width: 100vw;
+  overflow: hidden;
+}
 .aboutus {
   text-align: center;
   margin-left: 10%;
@@ -25,10 +33,24 @@ body {
   width: 475px;
   height: 475px;
 }
+.aboutus2 {
+  text-align: center;
+  margin-left: 10%;
+  width: 50vw;
+}
+.aboutus-img2 {
+  width: 50vw;
+  margin-left: 10%;
+  /* position: relative; */
+}
 .aboutus-img {
   width: 50vw;
   margin-left: 15%;
   /* position: relative; */
+}
+.titlesection2 {
+  padding-top: 10%;
+  color: white;
 }
 
 .title {
@@ -124,10 +146,25 @@ a {
   }
   .section2 {
     display: inherit;
+    position: relative;
+  }
+  .section3 {
+    display: initial;
+    top: -100%;
   }
   .aboutus {
     text-align: center;
     margin-left: 0%;
+    width: 100vw;
+  }
+  .titlesection2 {
+    margin-top: -90%;
+    margin-left: 36%;
+    color: white;
+  }
+  .aboutus2 {
+    text-align: center;
+    margin-left: 5%;
     width: 100vw;
   }
   .aboutusimg {
@@ -135,6 +172,12 @@ a {
     height: 200px;
   }
   .aboutus-img {
+    padding-top: 30%;
+    width: 100vw;
+    margin-left: 5%;
+    /* position: relative; */
+  }
+  .aboutus-img2 {
     padding-top: 30%;
     width: 100vw;
     margin-left: 5%;
